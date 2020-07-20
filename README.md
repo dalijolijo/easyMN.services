@@ -1,5 +1,7 @@
 # easyMN.services
-HowTo`s for BitCore, BitCloud, BitSend and MegaCoin
+**Step-by-step tutorial for configuration on the QT Wallet side**
+
+*for BitCore, BitCloud, BitSend and MegaCoin*
 
 #### Some important notes:
 
