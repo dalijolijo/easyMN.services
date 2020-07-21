@@ -111,8 +111,9 @@
     ```sh
     #MN_ALIAS IP_ADDRESS:8329 MASTERNODE_KEY TX_ID TX_INDEX
     mn1 IP_FORM_EASYMN:8329 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0
-     ```
-     
+    ```
+    The wallet must now be restarted to load the masternode.conf changes.
+
 12. Activate your Masternode via your BitCore BTX QT Wallet
 
     Open the Console...
@@ -230,7 +231,9 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     ```sh
     #MN_ALIAS IP_ADDRESS:8555 MASTERNODE_KEY TX_ID TX_INDEX
     mn01 IP_FORM_EASYMN:8555 6A37SVCHTwHDycZHzgjLVa8r19bftZmsqAmSKaXLmQRndfqVsWU bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0
-     ```
+    ```
+    The wallet must now be restarted to load the masternode.conf changes.
+     
 12. Activate your Masternode via your BitCLoud BTDX QT Wallet
 
     Open the Console...
@@ -353,7 +356,8 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     ```sh
     #MN_ALIAS IP_ADDRESS:8886 MASTERNODE_KEY TX_ID TX_INDEX
     mn1 IP_FORM_EASYMN:8886 7s8XvbLGh5aSmsfCewkTfsuEQH5Nz4fj5x2Skq7ZymJ1TEPJuGV 00000000056f193af4a2be25151be6cbedb6b0023cb0a8d2cdcfc99d2ca410cb  0
-     ```
+    ```
+    The wallet must now be restarted to load the masternode.conf changes.
 
 13. Activate your Masternode via your BitSend BSD QT Wallet
 
@@ -477,7 +481,8 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     ```sh
     #MN_ALIAS IP_ADDRESS:7951 MASTERNODE_KEY TX_ID TX_INDEX
     mn1 IP_FORM_EASYMN:7951 6yxDokr5Xex1jVg5vae71kGr7KkepZkkTdTag6pgbH15H4msYoq 7e60b6266962f59d2775b592b59debe70d41b7a8a69134d80035429e8e0b24fa 0
-     ```
+    ```
+    The wallet must now be restarted to load the masternode.conf changes.
 
 12. Activate your Masternode via your Megacoin MΣC QT Wallet
 
