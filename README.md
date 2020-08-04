@@ -292,7 +292,7 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 
     Save this collateral address in a text file, you need this for easyMN.services.
 
-7. Send 25,000 BTDX coins to your new generated wallet address and wait for 15 confirmations
+7. Send 10,000 BSD coins to your new generated wallet address and wait for 15 confirmations
 
     ![bsd_send](bsd_send.png)
 
