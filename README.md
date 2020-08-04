@@ -295,12 +295,8 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 7. Send 25,000 BSD coins to your new generated wallet address and wait for 15 confirmations
 
     ![bsd_send](bsd_send.png)
-    
-8. Select on "Send" Tab the button "Inputs..." to open the "Coin Selection" dialog. Lock your masternode collateral of 25,000 BSD to prevent unintentional use of the coins in other transactions.
 
-    ![bsd_lock](bsd_lock.png)
-
-9. Generate a private key for your masternode
+8. Generate a private key for your masternode
 
     Open the Console...
     
@@ -312,7 +308,7 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 
     Save this MASTERNODE_KEY in a text file, you need it for the masternode.conf and for easyMN.services.
 
-10. Get your masternode collateral output
+9. Get your masternode collateral output
 
     Open the Console...
     
@@ -325,6 +321,10 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     The first value is the transaction ID (TX_ID). Save it in a text file, you need it for the masternode.conf and for easyMN.services.
     
     The second value is the transaction Index (TX_INDEX). Save it in a text file, you need it for the masternode.conf.
+
+10. Select on "Send" Tab the button "Inputs..." to open the "Coin Selection" dialog. Lock your masternode collateral of 25,000 BSD to prevent unintentional use of the coins in other transactions.
+
+    ![bsd_lock](bsd_lock.png)
 
 </details>
 <details>
