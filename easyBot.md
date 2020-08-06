@@ -31,7 +31,7 @@ In order to create a Telegram Bot, you will need to contact @BotFather.
 
 ![bot_api](bot_api.png)
 
-5. Now, search your bot with the username you've just set and send the bot an initial message (important!) to activate the bot.
+5. This step is very important! Now, search your bot with the username you've just set and send the bot an initial message like "Hello bot" to activate the bot.
 
 6. OPTIONAL: Change the bot picture
 
