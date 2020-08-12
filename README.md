@@ -76,6 +76,15 @@
     The first value is the transaction ID (TX_ID). Save it in a text file, you need it for the masternode.conf and for easyMN.services.
     
     The second value is the transaction Index (TX_INDEX). Save it in a text file, you need it for the masternode.conf.
+ 
+ 9. Open the masternode.conf file and enter all needed information, e.g.
+
+    ![btx_mnconf](btx_mnconf.png)
+
+    ```sh
+    #MN_ALIAS IP_ADDRESS:8329 MASTERNODE_KEY TX_ID TX_INDEX
+    mn1 IP_FORM_EASYMN:8329 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0
+    ```
    
 </details>
 <details>
@@ -83,18 +92,11 @@
 <b>Booking the Masternode-Server-Hosting</b>
 </summary>
 
-9. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired desired service package.
-
-    ![btx_easyone](btx_easyone.png)
+10. Open the masternode.conf file and copy the complete line of the master node alias e.g. `mn1 IP_FORM_EASYMN:8329 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0`
     
-    * The Masternode alias name
-      * e.g. mn1, is used in the email notification
-    * The Collateral Wallet Address
-      * Your address where you have sent your coins for the MN
-    * TransactionID (txid) 
-      * In which you can see at which address the Masternode Collaterals
-    * The masternode key
-      * Needed for the communication between your wallet and the masternode server hosting of easyMN.services.
+11. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired service package.
+
+    ![btx_easyone](btx_easyone_2.png)
 
 </details>
 <details>
@@ -104,17 +106,17 @@
 
 10. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
 
-11. Open the masternode.conf file and enter all needed information, e.g.
+12. Open the masternode.conf file and enter all needed information, e.g. IP_FORM_EASYMN is 93.221.58.150
 
     ![btx_mnconf](btx_mnconf.png)
 
     ```sh
-    #MN_ALIAS IP_ADDRESS:8329 MASTERNODE_KEY TX_ID TX_INDEX
-    mn1 IP_FORM_EASYMN:8329 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0
+    #MN_ALIAS IP_FORM_EASYMN:8329 MASTERNODE_KEY TX_ID TX_INDEX
+    mn1 93.221.58.150:8329 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0
     ```
     The wallet must now be restarted to load the masternode.conf changes.
 
-12. Activate your Masternode via your BitCore BTX QT Wallet
+13. Activate your Masternode via your BitCore BTX QT Wallet
 
     Open the Console...
     
