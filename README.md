@@ -198,25 +198,28 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     The first value is the transaction ID (TX_ID). Save it in a text file, you need it for the masternode.conf and for easyMN.services.
     
     The second value is the transaction Index (TX_INDEX). Save it in a text file, you need it for the masternode.conf.
-    
+
+9. Open the masternode.conf file and enter all needed information, e.g.
+
+    ![btdx_mnconf](btdx_mnconf.png)
+
+    ```sh
+    #MN_ALIAS IP_ADDRESS:8555 MASTERNODE_KEY TX_ID TX_INDEX
+    mn01 IP_FORM_EASYMN:8555 6A37SVCHTwHDycZHzgjLVa8r19bftZmsqAmSKaXLmQRndfqVsWU bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0
+    ```
+
 </details>
 <details>
 <summary>
 <b>Booking the Masternode-Server-Hosting</b>
 </summary>
 
-9. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired desired service package.
+10. Open the masternode.conf file and enter all needed information, e.g. `mn01 IP_FORM_EASYMN:8555 6A37SVCHTwHDycZHzgjLVa8r19bftZmsqAmSKaXLmQRndfqVsWU bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0`
 
-    ![btdx_easyone](btdx_easyone.png)
+11. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired service package.
+
+    ![btdx_easyone](btdx_easyone_2.png)
     
-    * The Masternode alias name
-      * e.g. mn01, is used in the email notification
-    * The Collateral Wallet Address
-      * Your address where you have sent your coins for the MN
-    * TransactionID (txid) 
-      * In which you can see at which address the Masternode Collaterals
-    * The masternode key
-      * Needed for the communication between your wallet and the masternode server hosting of easyMN.services.
 
 </details>
 <details>
@@ -224,9 +227,9 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 <b>Activate your Masternode</b>
 </summary>
 
-10. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
+12. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
 
-11. Open the masternode.conf file and enter all needed information, e.g.
+13. Open the masternode.conf file and enter all needed information, e.g.
 
     ![btdx_mnconf](btdx_mnconf.png)
 
@@ -236,7 +239,7 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     ```
     The wallet must now be restarted to load the masternode.conf changes.
      
-12. Activate your Masternode via your BitCLoud BTDX QT Wallet
+14. Activate your Masternode via your BitCLoud BTDX QT Wallet
 
     Open the Console...
     
@@ -328,24 +331,26 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 
     ![bsd_lock](bsd_lock.png)
 
+11. Open the masternode.conf file and enter all needed information, e.g.
+
+    ![bsd_mnconf](bsd_mnconf.png)
+
+    ```sh
+    #MN_ALIAS IP_ADDRESS:8886 MASTERNODE_KEY TX_ID TX_INDEX
+    mn1 IP_FORM_EASYMN:8886 7s8XvbLGh5aSmsfCewkTfsuEQH5Nz4fj5x2Skq7ZymJ1TEPJuGV 00000000056f193af4a2be25151be6cbedb6b0023cb0a8d2cdcfc99d2ca410cb  0
+    ```
+
 </details>
 <details>
 <summary>
 <b>Booking the Masternode-Server-Hosting</b>
 </summary>
 
-10. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired desired service package.
+12. Open the masternode.conf file and enter all needed information, e.g. `mn1 IP_FORM_EASYMN:8886 7s8XvbLGh5aSmsfCewkTfsuEQH5Nz4fj5x2Skq7ZymJ1TEPJuGV 00000000056f193af4a2be25151be6cbedb6b0023cb0a8d2cdcfc99d2ca410cb  0`
 
-    ![bsd_easyone](bsd_easyone.png)
-    
-    * The Masternode alias name
-      * e.g. mn1, is used in the email notification
-    * The Collateral Wallet Address
-      * Your address where you have sent your coins for the MN
-    * TransactionID (txid) 
-      * In which you can see at which address the Masternode Collaterals
-    * The masternode key
-      * Needed for the communication between your wallet and the masternode server hosting of easyMN.services.
+13. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired service package.
+
+    ![bsd_easyone](bsd_easyone_2.png)
 
 </details>
 <details>
@@ -353,9 +358,9 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 <b>Activate your Masternode</b>
 </summary>
 
-11. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
+14. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
 
-12. Open the masternode.conf file and enter all needed information, e.g.
+15. Open the masternode.conf file and enter all needed information, e.g.
 
     ![bsd_mnconf](bsd_mnconf.png)
 
@@ -365,7 +370,7 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     ```
     The wallet must now be restarted to load the masternode.conf changes.
 
-13. Activate your Masternode via your BitSend BSD QT Wallet
+16. Activate your Masternode via your BitSend BSD QT Wallet
 
     Select on "Send" Tab the button "Inputs..." to open the "Coin Selection" dialog. Unlock your masternode collateral of 25,000 BSD to allow the masternode to be started.
 
@@ -453,24 +458,26 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     
     The second value is the transaction Index (TX_INDEX). Save it in a text file, you need it for the masternode.conf.
 
+9. Open the masternode.conf file and enter all needed information, e.g.
+
+    ![mec_mnconf](mec_mnconf.png)
+
+    ```sh
+    #MN_ALIAS IP_ADDRESS:7951 MASTERNODE_KEY TX_ID TX_INDEX
+    mn1 IP_FORM_EASYMN:7951 6yxDokr5Xex1jVg5vae71kGr7KkepZkkTdTag6pgbH15H4msYoq 7e60b6266962f59d2775b592b59debe70d41b7a8a69134d80035429e8e0b24fa 0
+    ```
+
 </details>
 <details>
 <summary>
 <b>Booking the Masternode-Server-Hosting</b>
 </summary>
 
-9. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired desired service package.
+10. Open the masternode.conf file and enter all needed information, e.g. `mn1 IP_FORM_EASYMN:7951 6yxDokr5Xex1jVg5vae71kGr7KkepZkkTdTag6pgbH15H4msYoq 7e60b6266962f59d2775b592b59debe70d41b7a8a69134d80035429e8e0b24fa 0`
 
-    ![mec_easyone](mec_easyone.png)
-    
-    * The Masternode alias name
-      * e.g. mn1, is used in the email notification
-    * The Collateral Wallet Address
-      * Your address where you have sent your coins for the MN
-    * TransactionID (txid) 
-      * In which you can see at which address the Masternode Collaterals
-    * The masternode key
-      * Needed for the communication between your wallet and the masternode server hosting of easyMN.services.
+11. Make all information available to easyMN.service for setting up the server by filling out the website form on easymn.services and selecting the desired desired service package.
+
+    ![mec_easyone](mec_easyone_2.png)
 
 </details>
 <details>
@@ -478,9 +485,9 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 <b>Activate your Masternode</b>
 </summary>
 
-10. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
+12. After the masternode server hosting has been set up by easyMN.services for your masternode, you will receive an email from easyMN.services telling you which IP address to enter in your masternode.conf.
 
-11. Open the masternode.conf file and enter all needed information, e.g.
+13. Open the masternode.conf file and enter all needed information, e.g.
 
     ![mec_mnconf](mec_mnconf.png)
 
@@ -490,7 +497,7 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
     ```
     The wallet must now be restarted to load the masternode.conf changes.
 
-12. Activate your Masternode via your Megacoin MΣC QT Wallet
+14. Activate your Masternode via your Megacoin MΣC QT Wallet
 
     Open the Console...
     
