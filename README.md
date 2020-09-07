@@ -94,7 +94,7 @@
    
 10. Go to https://easymn.services and choose one of five available packages (easyONE, easyRWO, easyTHREE, easyFOUR or easyFIVE) for setting up the server(s) by filling out the website form and selecting the desired service package.
 
-11. Open the masternode.conf file and copy the complete line of the master node alias e.g. `mn1 IP_FORM_EASYMN:8329 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0` in the appropriate form field.
+11. Open the masternode.conf file and copy the complete line of the master node alias e.g. `mn1 IP_FORM_EASYMN:8555 5K1skWJZCmFpZ1NjmBxihpAjX3DHjDoYkg6oTxsvb2JBYGBVuD7 bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0` in the appropriate form field.
 
     ![btx_easyone](btx_easyone_2.png)
 
@@ -216,7 +216,7 @@ Now your Masternode Status will be PRE_ENABLED. It normally takes about 20 minut
 
 10. Go to https://easymn.services and choose one of five available packages (easyONE, easyRWO, easyTHREE, easyFOUR or easyFIVE) for setting up the server(s) by filling out the website form and selecting the desired service package.
 
-11. Open the masternode.conf file and enter all needed information, e.g. `mn01 IP_FORM_EASYMN:8555 6A37SVCHTwHDycZHzgjLVa8r19bftZmsqAmSKaXLmQRndfqVsWU bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0` in the appropriate form field.
+11. Open the masternode.conf file and enter all needed information, e.g. `mn01 IP_FORM_EASYMN:8329 6A37SVCHTwHDycZHzgjLVa8r19bftZmsqAmSKaXLmQRndfqVsWU bbb994227c20ea216380aa52d6e7d7042fbae63d1d33b86a869b9109e1e96302 0` in the appropriate form field.
 
     ![btdx_easyone](btdx_easyone_2.png)
     
